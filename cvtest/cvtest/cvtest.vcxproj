@@ -200,6 +200,7 @@
     <ClInclude Include="..\modules\legacy\src\_vectrack.h" />
     <ClInclude Include="..\modules\legacy\src\_vm.h" />
     <ClInclude Include="..\modules\ml\src\precomp.hpp" />
+    <ClInclude Include="..\modules\ml\test\test_precomp.hpp" />
     <ClInclude Include="..\modules\nonfree\src\precomp.hpp" />
     <ClInclude Include="..\modules\objdetect\src\cascadedetect.hpp" />
     <ClInclude Include="..\modules\objdetect\src\precomp.hpp" />
@@ -498,6 +499,12 @@
     <ClCompile Include="..\modules\ml\src\svm.cpp" />
     <ClCompile Include="..\modules\ml\src\testset.cpp" />
     <ClCompile Include="..\modules\ml\src\tree.cpp" />
+    <ClCompile Include="..\modules\ml\test\test_emknearestkmeans.cpp" />
+    <ClCompile Include="..\modules\ml\test\test_gbttest.cpp" />
+    <ClCompile Include="..\modules\ml\test\test_main.cpp" />
+    <ClCompile Include="..\modules\ml\test\test_mltests.cpp" />
+    <ClCompile Include="..\modules\ml\test\test_mltests2.cpp" />
+    <ClCompile Include="..\modules\ml\test\test_save_load.cpp" />
     <ClCompile Include="..\modules\nonfree\src\nonfree_init.cpp" />
     <ClCompile Include="..\modules\nonfree\src\sift.cpp" />
     <ClCompile Include="..\modules\nonfree\src\surf.cpp" />

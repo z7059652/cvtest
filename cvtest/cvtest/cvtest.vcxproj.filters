@@ -73,6 +73,9 @@
     <Filter Include="modules\videostab">
       <UniqueIdentifier>{76a60370-0927-4d6b-8739-63eae927b452}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\ml\test">
+      <UniqueIdentifier>{f244faa6-127c-43bd-87a9-6d73e2a31502}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -353,6 +356,9 @@
     </ClInclude>
     <ClInclude Include="..\modules\videostab\src\precomp.hpp">
       <Filter>modules\videostab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\ml\test\test_precomp.hpp">
+      <Filter>modules\ml\test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1396,6 +1402,24 @@
     </ClCompile>
     <ClCompile Include="..\modules\videostab\src\stabilizer.cpp">
       <Filter>modules\videostab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\ml\test\test_emknearestkmeans.cpp">
+      <Filter>modules\ml\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\ml\test\test_gbttest.cpp">
+      <Filter>modules\ml\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\ml\test\test_main.cpp">
+      <Filter>modules\ml\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\ml\test\test_mltests.cpp">
+      <Filter>modules\ml\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\ml\test\test_mltests2.cpp">
+      <Filter>modules\ml\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\ml\test\test_save_load.cpp">
+      <Filter>modules\ml\test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -81,10 +81,10 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(SolutionDir)include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -149,10 +149,191 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\modules\calib3d\src\circlesgrid.hpp" />
+    <ClInclude Include="..\modules\calib3d\src\epnp.h" />
+    <ClInclude Include="..\modules\calib3d\src\p3p.h" />
+    <ClInclude Include="..\modules\calib3d\src\polynom_solver.h" />
+    <ClInclude Include="..\modules\calib3d\src\precomp.hpp" />
+    <ClInclude Include="..\modules\calib3d\src\_modelest.h" />
+    <ClInclude Include="..\modules\contrib\src\basicretinafilter.hpp" />
+    <ClInclude Include="..\modules\contrib\src\imagelogpolprojection.hpp" />
+    <ClInclude Include="..\modules\contrib\src\magnoretinafilter.hpp" />
+    <ClInclude Include="..\modules\contrib\src\parvoretinafilter.hpp" />
+    <ClInclude Include="..\modules\contrib\src\precomp.hpp" />
+    <ClInclude Include="..\modules\contrib\src\retinacolor.hpp" />
+    <ClInclude Include="..\modules\contrib\src\retinafilter.hpp" />
+    <ClInclude Include="..\modules\contrib\src\templatebuffer.hpp" />
+    <ClInclude Include="..\modules\core\src\gl_core_3_1.hpp" />
+    <ClInclude Include="..\modules\core\src\precomp.hpp" />
+    <ClInclude Include="..\modules\features2d\src\fast_score.hpp" />
+    <ClInclude Include="..\modules\features2d\src\precomp.hpp" />
+    <ClInclude Include="..\modules\flann\src\precomp.hpp" />
+    <ClInclude Include="..\modules\highgui\src\bitstrm.hpp" />
+    <ClInclude Include="..\modules\highgui\src\cap_ffmpeg_api.hpp" />
+    <ClInclude Include="..\modules\highgui\src\cap_ffmpeg_impl.hpp" />
+    <ClInclude Include="..\modules\highgui\src\ffmpeg_codecs.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmts.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_base.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_bmp.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_exr.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_imageio.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_jpeg.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_png.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_pxm.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_sunras.hpp" />
+    <ClInclude Include="..\modules\highgui\src\grfmt_tiff.hpp" />
+    <ClInclude Include="..\modules\highgui\src\precomp.hpp" />
+    <ClInclude Include="..\modules\highgui\src\utils.hpp" />
+    <ClInclude Include="..\zlib\crc32.h" />
+    <ClInclude Include="..\zlib\deflate.h" />
+    <ClInclude Include="..\zlib\gzguts.h" />
+    <ClInclude Include="..\zlib\inffast.h" />
+    <ClInclude Include="..\zlib\inffixed.h" />
+    <ClInclude Include="..\zlib\inflate.h" />
+    <ClInclude Include="..\zlib\inftrees.h" />
+    <ClInclude Include="..\zlib\trees.h" />
+    <ClInclude Include="..\zlib\zlib.h" />
+    <ClInclude Include="..\zlib\zutil.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\modules\calib3d\src\calibinit.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\calibration.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\checkchessboard.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\circlesgrid.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\epnp.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\fundam.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\modelest.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\p3p.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\polynom_solver.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\posit.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\quadsubpix.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\solvepnp.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\stereobm.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\stereosgbm.cpp" />
+    <ClCompile Include="..\modules\calib3d\src\triangulate.cpp" />
+    <ClCompile Include="..\modules\contrib\src\adaptiveskindetector.cpp" />
+    <ClCompile Include="..\modules\contrib\src\ba.cpp" />
+    <ClCompile Include="..\modules\contrib\src\basicretinafilter.cpp" />
+    <ClCompile Include="..\modules\contrib\src\bowmsctrainer.cpp" />
+    <ClCompile Include="..\modules\contrib\src\chamfermatching.cpp" />
+    <ClCompile Include="..\modules\contrib\src\chowliutree.cpp" />
+    <ClCompile Include="..\modules\contrib\src\colormap.cpp" />
+    <ClCompile Include="..\modules\contrib\src\colortracker.cpp" />
+    <ClCompile Include="..\modules\contrib\src\contrib_init.cpp" />
+    <ClCompile Include="..\modules\contrib\src\detection_based_tracker.cpp" />
+    <ClCompile Include="..\modules\contrib\src\facerec.cpp" />
+    <ClCompile Include="..\modules\contrib\src\featuretracker.cpp" />
+    <ClCompile Include="..\modules\contrib\src\fuzzymeanshifttracker.cpp" />
+    <ClCompile Include="..\modules\contrib\src\gencolors.cpp" />
+    <ClCompile Include="..\modules\contrib\src\hybridtracker.cpp" />
+    <ClCompile Include="..\modules\contrib\src\imagelogpolprojection.cpp" />
+    <ClCompile Include="..\modules\contrib\src\inputoutput.cpp" />
+    <ClCompile Include="..\modules\contrib\src\lda.cpp" />
+    <ClCompile Include="..\modules\contrib\src\logpolar_bsm.cpp" />
+    <ClCompile Include="..\modules\contrib\src\magnoretinafilter.cpp" />
+    <ClCompile Include="..\modules\contrib\src\octree.cpp" />
+    <ClCompile Include="..\modules\contrib\src\openfabmap.cpp" />
+    <ClCompile Include="..\modules\contrib\src\parvoretinafilter.cpp" />
+    <ClCompile Include="..\modules\contrib\src\polyfit.cpp" />
+    <ClCompile Include="..\modules\contrib\src\retina.cpp" />
+    <ClCompile Include="..\modules\contrib\src\retinacolor.cpp" />
+    <ClCompile Include="..\modules\contrib\src\retinafilter.cpp" />
+    <ClCompile Include="..\modules\contrib\src\rgbdodometry.cpp" />
+    <ClCompile Include="..\modules\contrib\src\selfsimilarity.cpp" />
+    <ClCompile Include="..\modules\contrib\src\spinimages.cpp" />
+    <ClCompile Include="..\modules\contrib\src\stereovar.cpp" />
+    <ClCompile Include="..\modules\core\src\algorithm.cpp" />
+    <ClCompile Include="..\modules\core\src\alloc.cpp" />
+    <ClCompile Include="..\modules\core\src\arithm.cpp" />
+    <ClCompile Include="..\modules\core\src\array.cpp" />
+    <ClCompile Include="..\modules\core\src\cmdparser.cpp" />
+    <ClCompile Include="..\modules\core\src\convert.cpp" />
+    <ClCompile Include="..\modules\core\src\copy.cpp" />
+    <ClCompile Include="..\modules\core\src\datastructs.cpp" />
+    <ClCompile Include="..\modules\core\src\drawing.cpp" />
+    <ClCompile Include="..\modules\core\src\dxt.cpp" />
+    <ClCompile Include="..\modules\core\src\gl_core_3_1.cpp" />
+    <ClCompile Include="..\modules\core\src\gpumat.cpp" />
+    <ClCompile Include="..\modules\core\src\lapack.cpp" />
+    <ClCompile Include="..\modules\core\src\mathfuncs.cpp" />
+    <ClCompile Include="..\modules\core\src\matmul.cpp" />
+    <ClCompile Include="..\modules\core\src\matop.cpp" />
+    <ClCompile Include="..\modules\core\src\matrix.cpp" />
+    <ClCompile Include="..\modules\core\src\opengl_interop.cpp" />
+    <ClCompile Include="..\modules\core\src\opengl_interop_deprecated.cpp" />
+    <ClCompile Include="..\modules\core\src\out.cpp" />
+    <ClCompile Include="..\modules\core\src\parallel.cpp" />
+    <ClCompile Include="..\modules\core\src\persistence.cpp" />
+    <ClCompile Include="..\modules\core\src\rand.cpp" />
+    <ClCompile Include="..\modules\core\src\stat.cpp" />
+    <ClCompile Include="..\modules\core\src\system.cpp" />
+    <ClCompile Include="..\modules\core\src\tables.cpp" />
+    <ClCompile Include="..\modules\features2d\src\bagofwords.cpp" />
+    <ClCompile Include="..\modules\features2d\src\blobdetector.cpp" />
+    <ClCompile Include="..\modules\features2d\src\brief.cpp" />
+    <ClCompile Include="..\modules\features2d\src\brisk.cpp" />
+    <ClCompile Include="..\modules\features2d\src\descriptors.cpp" />
+    <ClCompile Include="..\modules\features2d\src\detectors.cpp" />
+    <ClCompile Include="..\modules\features2d\src\draw.cpp" />
+    <ClCompile Include="..\modules\features2d\src\dynamic.cpp" />
+    <ClCompile Include="..\modules\features2d\src\evaluation.cpp" />
+    <ClCompile Include="..\modules\features2d\src\fast.cpp" />
+    <ClCompile Include="..\modules\features2d\src\fast_score.cpp" />
+    <ClCompile Include="..\modules\features2d\src\features2d_init.cpp" />
+    <ClCompile Include="..\modules\features2d\src\freak.cpp" />
+    <ClCompile Include="..\modules\features2d\src\keypoint.cpp" />
+    <ClCompile Include="..\modules\features2d\src\matchers.cpp" />
+    <ClCompile Include="..\modules\features2d\src\mser.cpp" />
+    <ClCompile Include="..\modules\features2d\src\orb.cpp" />
+    <ClCompile Include="..\modules\features2d\src\stardetector.cpp" />
+    <ClCompile Include="..\modules\flann\src\flann.cpp" />
+    <ClCompile Include="..\modules\flann\src\miniflann.cpp" />
+    <ClCompile Include="..\modules\highgui\src\bitstrm.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_android.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_cmu.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_dc1394.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_dc1394_v2.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_dshow.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_ffmpeg.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_images.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_intelperc.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_libv4l.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_msmf.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_openni.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_pvapi.cpp" />
+    <ClCompile Include="..\modules\highgui\src\cap_v4l.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_base.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_bmp.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_exr.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_imageio.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_jpeg.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_jpeg2000.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_png.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_pxm.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_sunras.cpp" />
+    <ClCompile Include="..\modules\highgui\src\grfmt_tiff.cpp" />
+    <ClCompile Include="..\modules\highgui\src\loadsave.cpp" />
+    <ClCompile Include="..\modules\highgui\src\utils.cpp" />
+    <ClCompile Include="..\modules\highgui\src\window_gtk.cpp" />
+    <ClCompile Include="..\zlib\adler32.c" />
+    <ClCompile Include="..\zlib\compress.c" />
+    <ClCompile Include="..\zlib\crc32.c" />
+    <ClCompile Include="..\zlib\deflate.c" />
+    <ClCompile Include="..\zlib\gzclose.c" />
+    <ClCompile Include="..\zlib\gzlib.c" />
+    <ClCompile Include="..\zlib\gzread.c" />
+    <ClCompile Include="..\zlib\gzwrite.c" />
+    <ClCompile Include="..\zlib\infback.c" />
+    <ClCompile Include="..\zlib\inffast.c" />
+    <ClCompile Include="..\zlib\inflate.c" />
+    <ClCompile Include="..\zlib\inftrees.c" />
+    <ClCompile Include="..\zlib\trees.c" />
+    <ClCompile Include="..\zlib\uncompr.c" />
+    <ClCompile Include="..\zlib\zutil.c" />
     <ClCompile Include="cvtest.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -160,6 +341,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\modules\features2d\src\generated_16.i" />
+    <None Include="..\modules\features2d\src\generated_32.i" />
+    <None Include="..\modules\features2d\src\generated_64.i" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

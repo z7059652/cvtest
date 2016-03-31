@@ -13,6 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{8db2908a-b4f9-4ec8-84f7-8f9cf4c753fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\calib3d">
+      <UniqueIdentifier>{b6ad56a4-261a-413b-93e8-94604fd20fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\contrib">
+      <UniqueIdentifier>{4d439ec9-8c81-4c4b-b23c-10fcda861729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\core">
+      <UniqueIdentifier>{924fb95e-cbd5-463c-abc1-723d88a2df43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\features2d">
+      <UniqueIdentifier>{da7830c0-d3ea-4223-9dba-0a16207eb53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\flann">
+      <UniqueIdentifier>{fe728e3e-7d16-4bff-a008-bf6c15f8193a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{346b2386-29e2-4ab6-992c-2f4be921ab31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\highgui">
+      <UniqueIdentifier>{96b920d7-8403-4103-8052-a97f0306677d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +48,144 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\modules\calib3d\src\_modelest.h">
+      <Filter>modules\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\src\circlesgrid.hpp">
+      <Filter>modules\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\src\epnp.h">
+      <Filter>modules\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\src\p3p.h">
+      <Filter>modules\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\src\polynom_solver.h">
+      <Filter>modules\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\src\precomp.hpp">
+      <Filter>modules\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\basicretinafilter.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\imagelogpolprojection.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\magnoretinafilter.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\parvoretinafilter.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\precomp.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\retinacolor.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\retinafilter.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\contrib\src\templatebuffer.hpp">
+      <Filter>modules\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\core\src\gl_core_3_1.hpp">
+      <Filter>modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\core\src\precomp.hpp">
+      <Filter>modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\features2d\src\fast_score.hpp">
+      <Filter>modules\features2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\features2d\src\precomp.hpp">
+      <Filter>modules\features2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\flann\src\precomp.hpp">
+      <Filter>modules\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\bitstrm.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\cap_ffmpeg_api.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\cap_ffmpeg_impl.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\ffmpeg_codecs.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_base.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_bmp.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_exr.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_imageio.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_jpeg.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_jpeg2000.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_png.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_pxm.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_sunras.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmt_tiff.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\grfmts.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\precomp.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\highgui\src\utils.hpp">
+      <Filter>modules\highgui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,5 +194,421 @@
     <ClCompile Include="cvtest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\calibinit.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\calibration.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\epnp.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\fundam.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\modelest.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\p3p.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\polynom_solver.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\posit.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\solvepnp.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\stereobm.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\src\triangulate.cpp">
+      <Filter>modules\calib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\adaptiveskindetector.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\ba.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\basicretinafilter.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\bowmsctrainer.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\chamfermatching.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\chowliutree.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\colormap.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\colortracker.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\contrib_init.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\detection_based_tracker.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\facerec.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\featuretracker.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\fuzzymeanshifttracker.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\gencolors.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\hybridtracker.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\imagelogpolprojection.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\inputoutput.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\lda.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\logpolar_bsm.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\magnoretinafilter.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\octree.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\openfabmap.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\parvoretinafilter.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\polyfit.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\retina.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\retinacolor.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\retinafilter.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\rgbdodometry.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\selfsimilarity.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\spinimages.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\contrib\src\stereovar.cpp">
+      <Filter>modules\contrib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\algorithm.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\alloc.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\arithm.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\array.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\cmdparser.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\convert.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\copy.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\datastructs.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\drawing.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\dxt.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\gl_core_3_1.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\gpumat.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\lapack.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\mathfuncs.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\matmul.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\matop.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\matrix.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\opengl_interop.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\opengl_interop_deprecated.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\out.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\parallel.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\persistence.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\rand.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\stat.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\system.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\core\src\tables.cpp">
+      <Filter>modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\bagofwords.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\blobdetector.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\brief.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\brisk.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\descriptors.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\detectors.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\draw.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\dynamic.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\evaluation.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\fast.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\fast_score.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\features2d_init.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\freak.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\keypoint.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\matchers.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\mser.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\orb.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\features2d\src\stardetector.cpp">
+      <Filter>modules\features2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\flann\src\flann.cpp">
+      <Filter>modules\flann</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\flann\src\miniflann.cpp">
+      <Filter>modules\flann</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\bitstrm.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_android.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_cmu.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_dc1394.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_dc1394_v2.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_dshow.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_ffmpeg.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_images.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_intelperc.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_libv4l.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_msmf.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_openni.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_pvapi.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\cap_v4l.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_base.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_bmp.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_exr.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_imageio.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_jpeg.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_jpeg2000.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_png.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_pxm.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_sunras.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\grfmt_tiff.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\loadsave.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\utils.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\highgui\src\window_gtk.cpp">
+      <Filter>modules\highgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\modules\features2d\src\generated_16.i">
+      <Filter>modules\features2d</Filter>
+    </None>
+    <None Include="..\modules\features2d\src\generated_32.i">
+      <Filter>modules\features2d</Filter>
+    </None>
+    <None Include="..\modules\features2d\src\generated_64.i">
+      <Filter>modules\features2d</Filter>
+    </None>
   </ItemGroup>
 </Project>

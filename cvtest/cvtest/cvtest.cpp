@@ -69,11 +69,8 @@ void test(unsigned int num)
 		<< (int)a.num.a << endl;
 	cout << os.str() << endl;
 }
-int main(void)
+int videotest()
 {
-// 	test(3232235777);
-// 	dopro();
-// 	return 1;
 	VideoCapture capture;
 	Mat frame;
 	//-- 1. Load the cascades
@@ -91,7 +88,7 @@ int main(void)
 			//-- 3. Apply the classifier to the frame
 			if (!frame.empty())
 			{
-//				imshow(window_name, frame);
+				//				imshow(window_name, frame);
 				detectAndDisplay(frame);
 				//				detectBylibfacedetect(frame);
 			}
@@ -105,6 +102,13 @@ int main(void)
 
 		}
 	}
+	return 0;
+}
+int main1(void)
+{
+ 	test(3232235777);
+// 	dopro();
+
 	return 0;
 }
 

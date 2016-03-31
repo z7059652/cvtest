@@ -76,6 +76,18 @@
     <Filter Include="modules\ml\test">
       <UniqueIdentifier>{f244faa6-127c-43bd-87a9-6d73e2a31502}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\imgproc\test">
+      <UniqueIdentifier>{8621c200-c7df-4ef6-af5f-db15ddafebb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\objdetect\test">
+      <UniqueIdentifier>{d1ff8274-aaac-4c29-af8e-6d66cc9a41f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\legacy\test">
+      <UniqueIdentifier>{90605ae6-3c61-4d39-b521-38cb715fce66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\calib3d\test">
+      <UniqueIdentifier>{2705b261-9509-48ad-a73d-7597e2613190}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -359,6 +371,21 @@
     </ClInclude>
     <ClInclude Include="..\modules\ml\test\test_precomp.hpp">
       <Filter>modules\ml\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\imgproc\test\test_precomp.hpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\objdetect\test\test_precomp.hpp">
+      <Filter>modules\objdetect\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\legacy\test\test_precomp.hpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\test\test_chessboardgenerator.hpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modules\calib3d\test\test_precomp.hpp">
+      <Filter>modules\calib3d\test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1420,6 +1447,168 @@
     </ClCompile>
     <ClCompile Include="..\modules\ml\test\test_save_load.cpp">
       <Filter>modules\ml\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_approxpoly.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_bilateral_filter.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_boundingrect.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_canny.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_color.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_contours.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_convhull.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_cvtyuv.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_distancetransform.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_emd.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_filter.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_floodfill.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_grabcut.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_histograms.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_houghLines.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_imgwarp_strict.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_main.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_moments.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_pc.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_templmatch.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_thresh.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\imgproc\test\test_watershed.cpp">
+      <Filter>modules\imgproc\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\objdetect\test\test_cascadeandhog.cpp">
+      <Filter>modules\objdetect\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\objdetect\test\test_latentsvmdetector.cpp">
+      <Filter>modules\objdetect\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\objdetect\test\test_main.cpp">
+      <Filter>modules\objdetect\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_bruteforcematcher.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_em.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_main.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_nearestneighbors.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_optflow.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_pyrsegmentation.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_stereomatching.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\legacy\test\test_subdivisions.cpp">
+      <Filter>modules\legacy\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_affine3d_estimator.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_cameracalibration.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_cameracalibration_artificial.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_cameracalibration_badarg.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_chessboardgenerator.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_chesscorners.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_chesscorners_badarg.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_chesscorners_timing.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_compose_rt.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_cornerssubpix.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_fundam.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_homography.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_main.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_modelest.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_posit.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_reproject_image_to_3d.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_solvepnp_ransac.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_stereomatching.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_undistort.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_undistort_badarg.cpp">
+      <Filter>modules\calib3d\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modules\calib3d\test\test_undistort_points.cpp">
+      <Filter>modules\calib3d\test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

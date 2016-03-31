@@ -50,8 +50,8 @@
 #include <stdio.h>
 
 #if (defined _MSC_VER && _MSC_VER >= 1200) || defined __BORLANDC__
-#define cv_stricmp stricmp
-#define cv_strnicmp strnicmp
+#define cv_stricmp _stricmp
+#define cv_strnicmp _strnicmp
 #if defined WINCE
 #define strdup _strdup
 #define stricmp _stricmp

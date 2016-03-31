@@ -71,9 +71,9 @@ void test(unsigned int num)
 }
 int main(void)
 {
-	test(3232235777);
-	dopro();
-	return 1;
+// 	test(3232235777);
+// 	dopro();
+// 	return 1;
 	VideoCapture capture;
 	Mat frame;
 	//-- 1. Load the cascades

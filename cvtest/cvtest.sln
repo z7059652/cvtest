@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cvtest", "cvtest\cvtest.vcxproj", "{33EC663A-2494-4D3F-AC19-55FFC29DA622}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paint-house", "paint-house\paint-house.vcxproj", "{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -23,14 +21,6 @@ Global
 		{33EC663A-2494-4D3F-AC19-55FFC29DA622}.Release|Win32.Build.0 = Release|Win32
 		{33EC663A-2494-4D3F-AC19-55FFC29DA622}.Release|x64.ActiveCfg = Release|x64
 		{33EC663A-2494-4D3F-AC19-55FFC29DA622}.Release|x64.Build.0 = Release|x64
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Debug|Win32.Build.0 = Debug|Win32
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Debug|x64.ActiveCfg = Debug|x64
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Debug|x64.Build.0 = Debug|x64
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Release|Win32.ActiveCfg = Release|Win32
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Release|Win32.Build.0 = Release|Win32
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Release|x64.ActiveCfg = Release|x64
-		{8D8D9965-4B6B-4E2C-B8FE-7700ACF6C0B9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
